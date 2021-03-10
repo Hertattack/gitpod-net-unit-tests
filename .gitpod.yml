@@ -1,1 +1,8 @@
 image: gitpod/workspace-dotnet
+
+tasks:
+  - init: dotnet restore src/UnitTest.sln
+
+vscode:
+  extensions:
+    - muhammad-sammy.csharp
